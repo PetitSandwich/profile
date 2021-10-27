@@ -1,0 +1,129 @@
+/* ----- Media queries ----- */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px !important;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px !important;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px !important;
+  }
+}
+
+/* ----- General ----- */
+
+body {
+  background: rgb(173,83,137);
+  background: linear-gradient(90deg, rgba(173,83,137,1) 0%, rgba(9,9,121,1) 100%);
+  color: #120538;
+  font-family: input-serif,serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: century-gothic,sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 24px;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 24px;
+}
+
+ul {
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+  padding-inline-start: 0px !important;
+}
+/* ----- Links -----*/
+
+.link{
+  color: #120538 ;
+  text-decoration: none !important;
+}
+.link:hover {
+  color: #1D0958 !important;
+  text-decoration: underline !important;
+}
+.link:link {
+  color: #200a64;
+  text-decoration: underline;
+}
+.link:visited {
+  color: #200a64;
+  text-decoration: underline;
+}
+
+.primary-button a{
+  background-color: #120538;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 24px;
+}
+.primary-button:hover {
+  background-color: #1D0958 !important;
+  margin-top: -8px;
+  box-shadow: 0px 8px #ff0054;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 24px;
+  transition-duration: 500ms;
+}
+.primary-button:link {
+  background-color: #200a64;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 24px;
+}
+.primary-button:visited
+{
+  background-color: #170747;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 24px;
+}
